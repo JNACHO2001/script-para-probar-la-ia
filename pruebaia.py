@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "http://localhost:8000/api/v1/analizar"
+API_URL = "https://polyphyodont-elke-stuntingly.ngrok-free.dev/api/v1/analizar" # url local es http://localhost:8000/api/v1/analizar
 API_KEY = "jogo_bonito_2001"
 
 def analizar_texto(texto):
@@ -16,7 +16,7 @@ def analizar_texto(texto):
 
 # Usar
 mi_texto = """
-hola tengo hambre 
+hola cuanto es 2 +2
 """
 
 resultado = analizar_texto(mi_texto)
